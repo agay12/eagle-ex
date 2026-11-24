@@ -9,3 +9,5 @@ mkdirSync(outDir, { recursive: true });
 const target = join(outDir, "entry.txt");
 writeFileSync(target, ENTRY_TEXT, "utf8");
 console.log("wrote " + target + ": " + ENTRY_TEXT.length + " chars");
+
+// entry rebuilt for round 5: one-word-for-the-boss style deliverable
